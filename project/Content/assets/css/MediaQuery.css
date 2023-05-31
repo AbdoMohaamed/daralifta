@@ -1,0 +1,86 @@
+/*
+#content-desktop {
+    display: block!important;
+}
+
+#content-mobile {
+    display: none !important
+}
+
+
+*/
+@media (min-width: 768px) {
+    .container-fluid {
+      /* margin:0px!important;*/
+      /* padding:0px!important;*/
+    }
+    #LogSection .headerlogo {
+        padding-right: 0rem !important;
+    }
+    .mainslider {
+        padding:0px!important;
+    }
+    .taqweem .bannercontainer {
+        padding-left: 0px !important;
+        padding-right: 1.5rem !important
+    }
+    .taqweem .taqweemcontainer {
+        padding-right: 0rem !important;
+    }
+}
+@media(max-width: 767px) {
+    .container-fluid {
+      /*  padding: 1rem !important;*/
+    }
+    #LogSection .headerlogo {
+        padding-right: 1rem !important;
+    }
+    .mainslider {
+        padding:1rem !important;
+    }
+    .footer, .footer .fotersection {
+       /* padding: 0px !important;
+        padding-right: 1.5rem !important;*/
+         
+    }
+    .taqweem .bannercontainer {
+       /* padding-left: 0px !important;*/
+        margin-top: 1.5rem !important
+    }
+    .taqweem .taqweemcontainer {
+        padding-right: 1rem !important;
+        margin-top: 1.5rem !important
+    }
+    .releasecontainer .sectionheader {
+        padding-top:3rem!important;
+    }
+    .releasecontainer .sectionheader a::before {
+        content: ' ';
+        display: block;
+        position: absolute;
+        width: 160px;
+        height: 3px;
+        background-color: #0791BB;
+        margin: auto;
+        right: 30%;
+        margin-top: -1rem;
+       
+    }
+    .mediacontainer .sectionheader {
+        padding-top: 3rem !important;
+    }
+
+        .mediacontainer .sectionheader a::before {
+            content: ' ';
+            display: block;
+            position: absolute;
+            width: 150px;
+            height: 3px;
+            background-color: #0791BB;
+            margin: auto;
+            right: 30%;
+            margin-top: -1rem;
+        }
+    
+}
+
