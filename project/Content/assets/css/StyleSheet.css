@@ -39,7 +39,7 @@ body {
     height:53px;
 }*/
 .navbar .navbar-nav .nav-item {
-    padding:15px 0 15px;
+    padding:7px 0 7px;
 }
 
             .navbar .navbar-nav .nav-item.active, .nav-item:hover {
@@ -940,3 +940,396 @@ body {
         width: 97%;
         height: 10rem;
     }
+/*---------------------------------------------------*/
+/*-------------------Haj------------------------------*/
+
+/*------------------------------*/
+.container .con_header_r  .sub_title::before {
+    content: '';
+    position: absolute;
+    background-color: #17A0DB;
+    width: 150px;
+    height: 3px;
+    margin-right: 12%;
+    margin-top: -27px;
+}
+.container .con_header_r .sub_title {
+    color: #000;
+    font-size: 2.5em;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+/*------------------------------------*/
+.container .row_img .box_img {
+    width: 100%;
+    height: 25rem;
+    background-size: cover;
+    border-radius: 2%;
+    padding: 15px 15px !important;
+}
+
+
+.container .row_img .title h1::before {
+    content: '';
+    position: absolute;
+    width: 3.2rem;
+    height: 3px;
+    background-color: #fff;
+    top: 21rem;
+}
+/*-----------------icon------------------*/
+.header_haj::before {
+    content: ' ';
+    position: absolute;
+    width: 6rem;
+    height: 3px;
+    background-color: #17A0DB;
+    top: 4.5rem;
+    margin-right: 1.2rem;
+}
+
+.icons_haj {
+    background-color: #17A0DB;
+}
+
+.icons_haj-active {
+    background-color: #C17F0E;
+}
+
+
+.img_haj {
+    width: 50px;
+    height: 50px;
+    margin: 25%
+}
+
+.icons_text a {
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 5rem;
+    color: #676363;
+    text-decoration: none;
+    text-align: center;
+}
+
+.box_container {
+    display: flex;
+    width: calc(100%);
+    gap: 8%;
+    flex-flow: wrap row;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+
+
+.icons_haj {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+
+.text_icon {
+    max-width: 100px;
+    text-align: center;
+}
+
+.icons_text a {
+    font-size: 17px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #676363;
+    text-decoration: none;
+    line-height: 32px;
+}
+
+.hidden {
+    display: none;
+}
+.divToShow {
+    display: none;
+}
+
+header {
+    font-size: 30px;
+    font-weight: bold;
+    color: #17A0DB;
+    margin-bottom: 20px;
+    padding-top: 35px;
+}
+       
+/*---------------------plane----------------------------*/
+.header_plane::before {
+    content: '';
+    position: absolute;
+    width: 150px;
+    height: 3px;
+    background-color: #17A0DB;
+    top: -15px;
+    right: -15px;
+}
+
+.header_plane {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.img_plane {
+    width: 100%;
+    height: 400px;
+    padding-right: 100px;
+}
+
+.title_plane {
+    color: #17A0DB;
+    font-size: 23px;
+    padding: 30px 0 10px;
+    font-weight: bold;
+}
+
+.art_plane {
+    color: #707070;
+    font-size: 19px;
+    font-weight: bold;
+    justify-content: center;
+}
+/*-------------------------fataw-----------------------------------*/
+.fataw_haj {
+    width: 95%;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    margin: 25px;
+    border-radius: 2%;
+}
+
+.fataw_content {
+    width: 25rem;
+    height: 65px;
+    display: flex;
+    align-content: center;
+    background-color: #E8AEAE;
+    margin: 200px auto 0;
+    border-radius: 2%;
+    text-align: center;
+}
+
+.fataw_link {
+    margin: auto;
+    font-size: 32px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+}
+
+    .fataw_link:hover {
+        text-decoration: none;
+        color: #000;
+    }
+
+
+.fataw_content_2 {
+    width: 25rem;
+    height: 65px;
+    display: flex;
+    align-content: center;
+    background-color: #17A0DB;
+    margin: 200px auto 0;
+    border-radius: 2%;
+    text-align: center;
+}
+
+.fataw_link_2 {
+    margin: auto;
+    font-size: 32px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+
+    .fataw_link_2:hover {
+        color: #fff;
+        text-decoration: none;
+    }
+.mareyat_link {
+    text-decoration: none;
+    color: #000;
+}
+
+    .mareyat_link:hover {
+        text-decoration: none;
+        color: #000;
+    }
+
+.mareyat_date {
+    color: #C17F0E;
+}
+/*----------------------carousel----------------------------------*/
+.adeia {
+    background-image: url('/Content/assets/Images/Haj/Mask-Group-20.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+}
+
+    .adeia .header_adeia {
+        text-align: center;
+    }
+
+        .adeia .header_adeia .header_adeia_h::before {
+            content: '';
+            position: absolute;
+            width: 150px;
+            height: 3px;
+            background-color: #17A0DB;
+            top: 55px;
+        }
+
+        .adeia .header_adeia .header_adeia_h {
+            color: #fff;
+            padding: 82px;
+        }
+
+.content_cor {
+    position: center;
+}
+
+.header_cor {
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+
+.p_cor {
+    font-size: 23px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+
+.prev_cor {
+    width: 20px;
+    height: 20px;
+    background: transparent no-repeat; 
+    top: 80px;
+    width: 100px;
+    float: right;
+    right: -110px;
+    color: #fff;
+}
+
+.next_cor {
+    float: left;
+    margin-right: 977px;
+}
+/*----------------------end-----------------------------*/
+
+.final_haj .final_header {
+    text-align: center;
+    color: #17A0DB;
+    pointer-events: auto;
+    padding-bottom: 18px;
+}
+
+.final_haj .p_final {
+    font-size: 19px;
+    font-weight: bold;
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+    /*  margin: 20px 250px 0;*/
+}
+.carousel {
+    margin: 15px 300px;
+}
+@media only screen and (max-width: 600px) {
+    .container .row_img .box_img{
+        margin-right:20px;
+    }
+        .box_container{
+            margin-right:20px;
+        }
+        .img_plane {
+            display: none;
+        }
+
+    .img_n {
+        width: 100%;
+        height: 100%;
+    }
+
+    .adeia {
+        background-image: url('/Content/assets/Images/Haj/Mask-Group-20.jpg');
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+        width: 100%;
+        height: 300px;
+      
+    }
+
+        .adeia .header_adeia {
+            text-align: center;
+        }
+
+            .adeia .header_adeia .header_adeia_h::before {
+                content: '';
+                position: absolute;
+                width: 150px;
+                height: 3px;
+                background-color: #17A0DB;
+                top: 13px;
+            }
+
+            .adeia .header_adeia .header_adeia_h {
+                color: #fff;
+                padding: 24px;
+            }
+
+    .content_cor {
+        position: center;
+    }
+
+    .header_cor {
+        font-size: 13px;
+        color: #fff;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .p_cor {
+        font-size: 9px;
+        color: #fff;
+        text-align: center;
+    }
+
+    .prev_cor {
+        right: -20px;
+        background: transparent no-repeat;
+        color: #fff;
+        top: 73px;
+        background: transparent no-repeat;
+        color: #fff;
+    }
+
+    .next_cor {
+        float: right;
+        margin-right:410px;
+    }
+
+    .carousel {
+        margin: 0;
+    }
+
+    .art {
+        margin: 0 0 0 0;
+    }
+    .img_icon{
+        margin:0 0;
+    }
+}

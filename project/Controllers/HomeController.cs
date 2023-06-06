@@ -33,6 +33,14 @@ namespace project.Controllers
         {
             return View();
         }
+        public ActionResult Hej()
+        {
+            return View();
+        }
+        public ActionResult Hej_Index()
+        {
+            return View();
+        }
 
     }
 }
