@@ -114,15 +114,15 @@
     <Content Include="Content\assets\Images\Haj\angle-left.png" />
     <Content Include="Content\assets\Images\Haj\asset1.jpg" />
     <Content Include="Content\assets\Images\Haj\Component 124 – 1.png" />
-    <Content Include="Content\assets\Images\Haj\Component 201 – 2.png" />
-    <Content Include="Content\assets\Images\Haj\Component 202 – 2.png" />
-    <Content Include="Content\assets\Images\Haj\Component 203 – 2.png" />
-    <Content Include="Content\assets\Images\Haj\Component 204 – 2.png" />
+    <Content Include="Content\assets\Images\Haj\Group-13.jpg" />
     <Content Include="Content\assets\Images\Haj\Icon awesome-cube.png" />
     <Content Include="Content\assets\Images\Haj\Icon awesome-mosque.png" />
     <Content Include="Content\assets\Images\Haj\Mask Group 17.png" />
     <Content Include="Content\assets\Images\Haj\Mask Group 18.png" />
     <Content Include="Content\assets\Images\Haj\Mask Group 19.png" />
+    <Content Include="Content\assets\Images\Haj\Mask-Group-12.jpg" />
+    <Content Include="Content\assets\Images\Haj\Mask-Group-14.jpg" />
+    <Content Include="Content\assets\Images\Haj\Mask-Group-15.jpg" />
     <Content Include="Content\assets\Images\Haj\Mask-Group-16.jpg" />
     <Content Include="Content\assets\Images\Haj\Mask-Group-20.jpg" />
     <Content Include="Content\assets\Images\Haj\Mask-Group-d.jpg" />
@@ -186,8 +186,11 @@
     <Content Include="Views\Home\magazine.cshtml" />
     <Content Include="Views\Home\search.cshtml" />
     <Content Include="Views\Home\Number_Page.cshtml" />
-    <Content Include="Views\Home\Hej.cshtml" />
-    <Content Include="Views\Home\Hej_Index.cshtml" />
+    <Content Include="Views\Home\Haj.cshtml" />
+    <Content Include="Views\Home\fadlhajj.cshtml" />
+    <Content Include="Views\Home\arkanhajj.cshtml" />
+    <Content Include="Views\Home\sharthajj.cshtml" />
+    <Content Include="Views\Home\adabhajj.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

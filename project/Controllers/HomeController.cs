@@ -33,11 +33,23 @@ namespace project.Controllers
         {
             return View();
         }
-        public ActionResult Hej()
+        public ActionResult Haj()
         {
             return View();
         }
-        public ActionResult Hej_Index()
+        public ActionResult fadlhajj()
+        {
+            return View();
+        }
+        public ActionResult arkanhajj()
+        {
+            return View();
+        }
+        public ActionResult sharthajj()
+        {
+            return View();
+        }
+        public ActionResult adabhajj()
         {
             return View();
         }

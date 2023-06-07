@@ -966,17 +966,28 @@ body {
     background-size: cover;
     border-radius: 2%;
     padding: 15px 15px !important;
+   
 }
-
-
-.container .row_img .title h1::before {
+.container .row_img .title .header_back::before {
     content: '';
     position: absolute;
     width: 3.2rem;
     height: 3px;
     background-color: #fff;
-    top: 21rem;
+    top: -12px;
 }
+.container .row_img .title .header_back {
+    color: #fff;
+    position: absolute;
+    right: 32%;
+    bottom: 38px;
+    font-size: 1.8rem;
+    text-decoration:none;
+    font-weight: bold;
+}
+
+
+
 /*-----------------icon------------------*/
 .header_haj::before {
     content: ' ';
@@ -1045,13 +1056,10 @@ body {
     line-height: 32px;
 }
 
-.hidden {
+/*.hidden {
     display: none;
-}
-.divToShow {
-    display: none;
-}
-
+}*/
+       
 header {
     font-size: 30px;
     font-weight: bold;
@@ -1068,7 +1076,7 @@ header {
     height: 3px;
     background-color: #17A0DB;
     top: -15px;
-    right: -15px;
+    
 }
 
 .header_plane {
@@ -1188,6 +1196,7 @@ header {
             height: 3px;
             background-color: #17A0DB;
             top: 55px;
+            right: 45%;
         }
 
         .adeia .header_adeia .header_adeia_h {
@@ -1226,7 +1235,8 @@ header {
 
 .next_cor {
     float: left;
-    margin-right: 977px;
+    margin-right: 1000px;
+    top: 3px;
 }
 /*----------------------end-----------------------------*/
 
@@ -1243,14 +1253,23 @@ header {
     text-align: center;
     max-width: 700px;
     margin: auto;
-    /*  margin: 20px 250px 0;*/
+   
 }
 .carousel {
     margin: 15px 300px;
 }
 @media only screen and (max-width: 600px) {
-    .container .row_img .box_img{
-        margin-right:20px;
+   
+    .container .con_header_r .sub_title {
+        color: #000;
+        font-size: 1.7em;
+        font-weight: bold;
+        padding-bottom: 30px;
+    }
+    .container .row_img .box_img {
+        
+        width: 80%;
+        margin: auto;
     }
         .box_container{
             margin-right:20px;
@@ -1327,7 +1346,12 @@ header {
     .carousel {
         margin: 0;
     }
-
+    .adeia .header_adeia .header_adeia_h::before {
+        right:35%;
+    }
+    .adeia .header_adeia .header_adeia_h{
+        padding-top:-10px;
+    }
     .art {
         margin: 0 0 0 0;
     }

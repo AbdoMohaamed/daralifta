@@ -32,9 +32,9 @@
     <div class="row row_img">
         <!-- box-img haj starts -->
         <div class="col-xl-3 col-lg-4  col-md-6  col-sm-6  " style="padding:15px 15px!important;">
-            <div class="box_img" style="background-image:url('/Content/assets/Images/Haj/Mask Group 19.png')">
+            <div class="box_img" style="background-image:url('/Content/assets/Images/Haj/Mask-Group-14.jpg')">
                 <div class="title">
-                    <h1 class="text-center " style="color:#fff; line-height:42rem; font-size:1.8rem; font-weight:bold">فضل الحج</h1>
+                    <a href="/Home/fadlhajj" class="header_back">فضل الحج</a>
                 </div>
             </div>
 
@@ -42,9 +42,9 @@
         <!-- box-img haj Ends -->
         <!-- box-img haj starts -->
         <div class="col-xl-3 col-lg-4  col-md-6  col-sm-6" style="padding:15px 15px!important;">
-            <div class="box_img" style="background-image:url('/Content/assets/Images/Haj/Mask Group 19.png')">
+            <div class="box_img" style="background-image:url('/Content/assets/Images/Haj/Group-13.jpg')">
                 <div class="title">
-                    <h1 class="text-center " style="color:#fff; line-height:42rem; font-size:1.8rem; font-weight:bold">أركان الحج</h1>
+                    <a href="/Home/arkanhajj" target="_blank" class="header_back">أركان الحج</a>
                 </div>
             </div>
 
@@ -52,9 +52,9 @@
         <!-- box-img haj Ends -->
         <!-- box-img haj starts -->
         <div class="col-xl-3 col-lg-4  col-md-6  col-sm-6 " style="padding:15px 15px!important;">
-            <div class="box_img" style="background-image:url('/Content/assets/Images/Haj/Mask Group 19.png')">
+            <div class="box_img" style="background-image:url('/Content/assets/Images/Haj/Mask-Group-15.jpg')">
                 <div class="title">
-                    <h1 class="text-center " style="color:#fff; line-height:42rem; font-size:1.8rem; font-weight:bold">شروط الحج</h1>
+                    <a href="/Home/sharthajj" target="_blank" class="header_back">شروط الحج</a>
                 </div>
             </div>
 
@@ -62,9 +62,9 @@
         <!-- box-img haj Ends -->
         <!-- box-img haj starts -->
         <div class="col-xl-3 col-lg-4  col-md-6  col-sm-6" style="padding:15px 15px!important;">
-            <div class="box_img" style="background-image:url('/Content/assets/Images/Haj/Mask Group 19.png')">
+            <div class="box_img" style="background-image:url('/Content/assets/Images/Haj/Mask-Group-12.jpg')">
                 <div class="title">
-                    <h1 class="text-center " style="color:#fff; line-height:42rem; font-size:1.8rem; font-weight:bold;position:initial;"> اداب الحج</h1>
+                    <a href="/Home/adabhajj" target="_blank" class="header_back" style="line-height:-5px;" >  اداب الحج ومستحباتة</a>
                 </div>
             </div>
 
@@ -73,7 +73,7 @@
     </div>
 </div>
 <div class="container">
-   
+
     <div class="row">
         <h2 class="text-center gy-5 p-5 header_haj">أعمال الحج</h2>
     </div>
@@ -81,152 +81,157 @@
     @*-------------------------------------------*@
 
     <div class="container">
+        <style>
+            .contentd{
+                display:none;
+            }
+        </style>
         <div class="box_container">
             @*--------------------------------------------------------------*@
-            <div class="content_haj"   onclick="showDiv(0)" >
-                <div class="icons_haj" >
-                    <img class="img_haj" src="~/Content/assets/Images/Haj/Icon awesome-cube.png">
-                </div>
-
-                <div class="text_icon">
-                    <span class="icons_text">
-                        <a href="#" alt="#" title="">موقيت الحج</a>
-                    </span>
-                </div>
-            </div>
-            @*--------------------------------------------------------------*@
-
-            @*--------------------------------------------------------------*@
-            <div class="content_haj" onclick="showDiv(1)">
-                <div class="icons_haj" >
-                    <img class="img_haj" src="~/Content/assets/Images/Haj/Icon awesome-cube.png">
-                </div>
-
-                <div class="text_icon">
-                    <span class="icons_text">
-                        <a href="#" alt="#" title="">الإحرام</a>
-                    </span>
-                </div>
-            </div>
-            @*--------------------------------------------------------------*@
-            @*--------------------------------------------------------------*@
-            <div class="content_haj">
+            <div class="content_haj" onclick="showDiv('div0')">
                 <div class="icons_haj">
                     <img class="img_haj" src="~/Content/assets/Images/Haj/Icon awesome-cube.png">
                 </div>
 
                 <div class="text_icon">
                     <span class="icons_text">
-                        <a href="#" alt="#" title="">الطواف</a>
+                        <a href="javascript:;" alt="#" title="">موقيت الحج</a>
                     </span>
                 </div>
             </div>
             @*--------------------------------------------------------------*@
+
             @*--------------------------------------------------------------*@
-            <div class="content_haj">
+            <div class="content_haj" onclick="showDiv('div1')">
                 <div class="icons_haj">
                     <img class="img_haj" src="~/Content/assets/Images/Haj/Icon awesome-cube.png">
                 </div>
 
                 <div class="text_icon">
                     <span class="icons_text">
-                        <a href="#" alt="#" title="">السعى بين الصفا والمروه</a>
+                        <a href="javascript:;" alt="#" title="">الإحرام</a>
                     </span>
                 </div>
             </div>
             @*--------------------------------------------------------------*@
-            <div class="content_haj">
+            @*--------------------------------------------------------------*@
+            <div class="content_haj" onclick="showDiv('div2')">
                 <div class="icons_haj">
                     <img class="img_haj" src="~/Content/assets/Images/Haj/Icon awesome-cube.png">
                 </div>
 
                 <div class="text_icon">
                     <span class="icons_text">
-                        <a href="#" alt="#" title="">المكوث بمنى</a>
+                        <a href="javascript:;" alt="#" title="">الطواف</a>
                     </span>
                 </div>
             </div>
             @*--------------------------------------------------------------*@
-            <div class="content_haj">
+            @*--------------------------------------------------------------*@
+            <div class="content_haj" onclick="showDiv('div3')">
                 <div class="icons_haj">
                     <img class="img_haj" src="~/Content/assets/Images/Haj/Icon awesome-cube.png">
                 </div>
 
                 <div class="text_icon">
                     <span class="icons_text">
-                        <a href="#" alt="#" title="">الوقوف بعرفة</a>
+                        <a href="javascript:;" alt="#" title="">السعى بين الصفا والمروه</a>
                     </span>
                 </div>
             </div>
             @*--------------------------------------------------------------*@
-            <div class="content_haj">
+            <div class="content_haj" onclick="showDiv('div4')">
                 <div class="icons_haj">
                     <img class="img_haj" src="~/Content/assets/Images/Haj/Icon awesome-cube.png">
                 </div>
 
                 <div class="text_icon">
                     <span class="icons_text">
-                        <a href="#" alt="#" title="">الكفارة</a>
+                        <a href="javascript:;" alt="#" title="">المكوث بمنى</a>
                     </span>
                 </div>
             </div>
             @*--------------------------------------------------------------*@
-            <div class="content_haj">
+            <div class="content_haj" onclick="showDiv('div5')">
                 <div class="icons_haj">
                     <img class="img_haj" src="~/Content/assets/Images/Haj/Icon awesome-cube.png">
                 </div>
 
                 <div class="text_icon">
                     <span class="icons_text">
-                        <a href="#" alt="#" title="">طواف الوداع</a>
+                        <a href="javascript:;" alt="#" title="">الوقوف بعرفة</a>
                     </span>
                 </div>
             </div>
             @*--------------------------------------------------------------*@
-            <div class="content_haj">
+            <div class="content_haj" onclick="showDiv('div6')">
                 <div class="icons_haj">
                     <img class="img_haj" src="~/Content/assets/Images/Haj/Icon awesome-cube.png">
                 </div>
 
                 <div class="text_icon">
                     <span class="icons_text">
-                        <a href="#" alt="#" title="">المبيت بمنى أيام الإشريق</a>
+                        <a href="javascript:;" alt="#" title="">الكفارة</a>
                     </span>
                 </div>
             </div>
             @*--------------------------------------------------------------*@
-            <div class="content_haj">
+            <div class="content_haj" onclick="showDiv('div7')">
                 <div class="icons_haj">
                     <img class="img_haj" src="~/Content/assets/Images/Haj/Icon awesome-cube.png">
                 </div>
 
                 <div class="text_icon">
                     <span class="icons_text">
-                        <a href="#" alt="#" title="">موقيت الحج</a>
+                        <a href="javascript:;" alt="#" title="">طواف الوداع</a>
                     </span>
                 </div>
             </div>
             @*--------------------------------------------------------------*@
-            <div class="content_haj">
+            <div class="content_haj" onclick="showDiv('div8')">
                 <div class="icons_haj">
                     <img class="img_haj" src="~/Content/assets/Images/Haj/Icon awesome-cube.png">
                 </div>
 
                 <div class="text_icon">
                     <span class="icons_text">
-                        <a href="#" alt="#" title="">الهدى</a>
+                        <a href="javascript:;" alt="#" title="">المبيت بمنى أيام الإشريق</a>
                     </span>
                 </div>
             </div>
             @*--------------------------------------------------------------*@
-            <div class="content_haj">
+            <div class="content_haj" onclick="showDiv('div9')">
                 <div class="icons_haj">
                     <img class="img_haj" src="~/Content/assets/Images/Haj/Icon awesome-cube.png">
                 </div>
 
                 <div class="text_icon">
                     <span class="icons_text">
-                        <a href="#" alt="#" title="">التحليل من الإحرام</a>
+                        <a href="javascript:;" alt="#" title="">موقيت الحج</a>
+                    </span>
+                </div>
+            </div>
+            @*--------------------------------------------------------------*@
+            <div class="content_haj" onclick="showDiv('div10')">
+                <div class="icons_haj">
+                    <img class="img_haj" src="~/Content/assets/Images/Haj/Icon awesome-cube.png">
+                </div>
+
+                <div class="text_icon">
+                    <span class="icons_text">
+                        <a href="javascript:;" alt="#" title="">الهدى</a>
+                    </span>
+                </div>
+            </div>
+            @*--------------------------------------------------------------*@
+            <div class="content_haj" onclick="showDiv('div4')">
+                <div class="icons_haj">
+                    <img class="img_haj" src="~/Content/assets/Images/Haj/Icon awesome-cube.png">
+                </div>
+
+                <div class="text_icon">
+                    <span class="icons_text">
+                        <a href="javascript:;" alt="#" title="">التحليل من الإحرام</a>
                     </span>
                 </div>
             </div>
@@ -234,30 +239,44 @@
 
         </div>
     </div>
-    @*-------------------------------------------*@
-<div class="divToShow">
-    <span class="close" style="color:red; font-size:3rem;">&times;</span>
-    <div class="head-section">
-        <header class="text-center">موقيت الحج</header>
-    </div>
-    <article class="art" style="margin: 0 6.6rem 0 6.6rem; padding-bottom: 80px">
-        تهدف هذه الخدمة إلى تحسين الأداء الدعوي لدى المتصدرين له؛ من أجل مزيد من الوعي والإدراك لواقعهم وحاجات أمتهم الحضارية، والتعامل مع المستجدات المعاصرة بوعي وكفاءة؛ سعيًا إلى النموذج المنشود في تمثيل الديانة والعِلم والأمة في المواقع والمواقف المختلفة تمثيلا مُشَرِّفًا وفعَّالا.
-        غاية التدريب الراقي داعية مثقف متفاعل مبادر؛ يستمع للآخرين جيدًا، يستوعب أفكارهم وآراءهم وقِيمهم، يتفاهم مع الاختلافات والتنوعات، يستجيب برصانة، يقرأ النصوص والأقوال بعمق، يُشَخِّص الوقائع، ويفسرها ويُحَلِّلها، يُقَوِّم وينقد، ويتبنى المواقف عن دراسة وبحث، ويقدم أطروحاته بلغة العصر فيجمع بين الشرع ومحله: الواقع؛ ويؤدي واجب وقته للأمتين: أمة الإجابة، وأمة الدعوة.
-    </article>
+    @*------------------------موقيت الحج -------------------*@
+    <div class="contentd" id="div0">
+        <span class="close" style="color:red; font-size:3rem;">&times;</span>
+        <div class="head-section">
+            <header class="text-center">موقيت الحج</header>
+        </div>
+        <article class="art" style="margin: 0 6.6rem 0 6.6rem; padding-bottom: 80px; line-height: 30px;">
+            تهدف هذه الخدمة إلى تحسين الأداء الدعوي لدى المتصدرين له؛ من أجل مزيد من الوعي والإدراك لواقعهم وحاجات أمتهم الحضارية، والتعامل مع المستجدات المعاصرة بوعي وكفاءة؛ سعيًا إلى النموذج المنشود في تمثيل الديانة والعِلم والأمة في المواقع والمواقف المختلفة تمثيلا مُشَرِّفًا وفعَّالا.
+            غاية التدريب الراقي داعية مثقف متفاعل مبادر؛ يستمع للآخرين جيدًا، يستوعب أفكارهم وآراءهم وقِيمهم، يتفاهم مع الاختلافات والتنوعات، يستجيب برصانة، يقرأ النصوص والأقوال بعمق، يُشَخِّص الوقائع، ويفسرها ويُحَلِّلها، يُقَوِّم وينقد، ويتبنى المواقف عن دراسة وبحث، ويقدم أطروحاته بلغة العصر فيجمع بين الشرع ومحله: الواقع؛ ويؤدي واجب وقته للأمتين: أمة الإجابة، وأمة الدعوة.
+        </article>
 
-</div>
+    </div>
     @* --------------------------------------------------------------- *@
-    @*-------------------------------------------*@
-<div class="divToHide">
-    <span class="close" style="color:red; font-size:3rem;">&times;</span>
-    <div class="head-section">
-        <header class="text-center">الإحرام</header>
-    </div>
-    <article style="margin: 0 6.6rem 0 6.6rem; padding-bottom: 80px">
-        تهدف هذه الخدمة إلى تحسين الأداء الدعوي لدى المتصدرين له؛ من أجل مزيد من الوعي والإدراك لواقعهم وحاجات أمتهم الحضارية، والتعامل مع المستجدات المعاصرة بوعي وكفاءة؛ سعيًا إلى النموذج المنشود وقته للأمتين: أمة الإجابة،لحضارية، والتعامل مع المستجدات المعاصرة بوعي وكفاءة؛ سعيًا إلى النموذج  وأمة الدعوة.
-    </article>
+    @*--------------------------الإحرام-----------------*@
+    <div class="contentd" id="div1">
+        <span class="close" style="color:red; font-size:3rem;">&times;</span>
+        <div class="head-section">
+            <header class="text-center">الإحرام</header>
+        </div>
+        <article style="margin: 0 6.6rem 0 6.6rem; padding-bottom: 80px; line-height: 30px;">
+            تهدف هذه الخدمة إلى تحسين الأداء الدعوي لدى المتصدرين له؛ من أجل مزيد من الوعي والإدراك لواقعهم وحاجات أمتهم الحضارية، والتعامل مع المستجدات المعاصرة بوعي وكفاءة؛ سعيًا إلى النموذج المنشود وقته للأمتين: أمة الإجابة،لحضارية، والتعامل مع المستجدات المعاصرة بوعي وكفاءة؛ سعيًا إلى النموذج  وأمة الدعوة.
+        </article>
 
-</div>
+    </div>
+    @* --------------------------------------------------------------- *@
+    @*--------------------------الطواف-----------------*@
+    <div class="contentd" id="div2">
+        <span class="close" style="color:red; font-size:3rem;">&times;</span>
+        <div class="head-section">
+            <header class="text-center">الطواف</header>
+        </div>
+        <article style="margin: 0 6.6rem 0 6.6rem; padding-bottom: 80px; line-height: 30px;">
+            تهدف هذه الخدمة إلى تحسين الأداء الدعوي لدى المتصدرين له؛ من أجل مزيد من الوعي والإدراك لواقعهم وحاجات أمتهم الحضارية، والتعامل مع المستجدات المعاصرة بوعي وكفاءة؛ سعيًا إلى النموذج المنشود وقته للأمتين: أمة الإجابة،لحضارية، والتعامل مع المستجدات المعاصرة بوعي وكفاءة؛ سعيًا إلى النموذج  وأمة الدعوة.
+        </article>
+
+    </div>
+    @* --------------------------------------------------------------- *@
+
     @* --------------------------------------------------------------- *@
 </div>
 <div class="container-fluid " style="background-image:url('/Content/assets/Images/Haj/Mask-Group-16.jpg');width:100%;height:400px;background-size:cover;opacity:100%;">
@@ -455,6 +474,20 @@
         </div>
     </div>
 </div>
+<script>  //-----show and hide div section ------------//
+    function showDiv(divId) {
+        var divs = document.getElementsByClassName("contentd");
+       
+        for (var i = 0; i < divs.length; i++) {
+            if (divs[i].id === divId) {
+                divs[i].style.display = "block";
+            } else {
+                divs[i].style.display = "none";
+            }
+        }
+    }
+
+    </script>
 
 <script>
      //----- active button  ------------//
@@ -472,21 +505,7 @@
             this.classList.add('icons_haj-active');
         });
     });
-    //-----show and hide div section ------------//
-    function showDiv(index) {
-        const divsToShow = document.getElementsByClassName('divToShow');
-        const divsToHide = document.getElementsByClassName('divToHide');
-
-        // Hide all divs
-        for (let i = 0; i < divsToShow.length; i++) {
-            divsToShow[i].style.display = 'none';
-            divsToHide[i].style.display = 'block';
-        }
-
-        // Show the selected div
-        divsToShow[index].style.display = 'block';
-        divsToHide[index].style.display = 'none';
-    }
+  
       //-----icon of close button section ------------//
     var closebtns = document.getElementsByClassName("close");
     var i;
