@@ -1178,22 +1178,8 @@ header {
     color: #C17F0E;
 }
 /*------------------------------المرئيات-------------------------------*/
-.carousel-control-next-icon{
-    left:50%;
-}
-.direction {
-    right: -144px;
-}
-.direction_2{
-    right:95%;
-}
-.prev {
-    background-color: #c5a220;
-    right: -30%;
-}
-.next {
-    background-color: #c5a220;
-}
+
+
 /*----------------------carousel----------------------------------*/
 .adeia {
     background-image: url('/Content/assets/Images/Haj/Mask-Group-20.jpg');

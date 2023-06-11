@@ -114,9 +114,12 @@
     <Content Include="Content\assets\Images\Haj\angle-left.png" />
     <Content Include="Content\assets\Images\Haj\asset1.jpg" />
     <Content Include="Content\assets\Images\Haj\Component 124 – 1.png" />
+    <Content Include="Content\assets\Images\Haj\Component 146 – 1.png" />
+    <Content Include="Content\assets\Images\Haj\exchange-alt.png" />
     <Content Include="Content\assets\Images\Haj\Group-13.jpg" />
     <Content Include="Content\assets\Images\Haj\Icon awesome-cube.png" />
     <Content Include="Content\assets\Images\Haj\Icon awesome-mosque.png" />
+    <Content Include="Content\assets\Images\Haj\marker %281%29.png" />
     <Content Include="Content\assets\Images\Haj\Mask Group 17.png" />
     <Content Include="Content\assets\Images\Haj\Mask Group 18.png" />
     <Content Include="Content\assets\Images\Haj\Mask Group 19.png" />
@@ -130,6 +133,7 @@
     <Content Include="Content\assets\Images\Haj\Path 283.png" />
     <Content Include="Content\assets\Images\Haj\Path 285.png" />
     <Content Include="Content\assets\Images\Haj\sheep.png" />
+    <Content Include="Content\assets\Images\Haj\user.png" />
     <Content Include="Content\assets\Images\header-pattern.png" />
     <Content Include="Content\assets\Images\icon\icons8-pdf-30.png" />
     <Content Include="Content\assets\Images\icon\icons8-word-48.png" />
